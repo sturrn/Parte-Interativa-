@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="topo">
+        <h1>calculadora de pegada de carbono</h1>
+        <p> Calcule sua pegada de carbono e descubra como suas atividades
+            do dia a dia impactam o meio ambiente.
+            Pequenas mudanças podem ajudar a reduzir a emissão de CO₂
+            e contribuir para um planeta mais sustentável.</p>
+    </div>
+    
+<div class="box-beneficios">
+
+    <div class="beneficio">
+        <span>🌿</span>
+
+        <div>
+            <h3>Menos carbono</h3>
+            <p>Melhor para o planeta</p>
+        </div>
+    </div>
+
+    <div class="beneficio">
+        <span>🍃</span>
+
+        <div>
+            <h3>Consciência</h3>
+            <p>Pequenas mudanças ajudam</p>
+        </div>
+    </div>
+
+    <div class="beneficio">
+        <span>🌍</span>
+
+        <div>
+            <h3>Sustentabilidade</h3>
+            <p>Juntos por um futuro melhor</p>
+        </div>
+    </div>
+
+</div>
+<br>
+<br>
+
+ <div class="cards">
+
+        <div class="card">
+            <h2>Transporte</h2>
+            <p>Os carros liberam dióxido de carbono (CO₂) porque queimam 
+                combustíveis como gasolina e diesel para funcionar.
+                 Quanto maior a distância percorrida e o consumo do 
+                 veículo, maior a emissão de carbono para a atmosfera.</p><br>
+
+            <label>Km percorridos por semana:</label>
+            <input type="number" id="km" placeholder="Ex: 120...">
+        </div>
+
+        <div class="card">
+            <h2>Energia</h2>
+            <p>O banho consome água e energia. Quando usamos chuveiro 
+                elétrico, é necessária eletricidade para aquecer a água, 
+                e parte dessa energia pode vir de fontes que liberam 
+                carbono na produção.</p><br>
+
+            <label>Consumo de energia (kWh):</label>
+            <input type="number" id="energia" placeholder="Ex: 200...">
+        </div>
+
+        <div class="card">
+            <h2>Alimentação</h2>
+            <p>A produção de carne, principalmente bovina, gera muito 
+                impacto ambiental. Os animais produzem gases como metano,
+                 além do uso de água, ração, transporte e desmatamento 
+                 para criação do gado.</p><br>
+
+            <label>Consumo de carne por semana:</label>
+            <input type="number" id="carne" placeholder="Ex: 5...">
+        </div>
+
+        <div class="card">
+            <h2>Água</h2>
+            <p>A energia elétrica pode gerar carbono dependendo da forma 
+                como é produzida. Usinas que queimam combustíveis fósseis,
+                como carvão e petróleo, liberam gases poluentes durante 
+                a geração de eletricidade.</p><br>
+<br>
+            <label>Tempo médio de banho (min):</label>
+            <input type="number" id="banho" placeholder="Ex: 15">
+        </div>
+
+    </div>
+
+    <button onclick="calcular()" id="resultado">
+        Calcular Pegada
+    </button>
+<br>
+<br>
+
+<div class="butto">
+    <a href="index.html" class="button">Voltar</a>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
