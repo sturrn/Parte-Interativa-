@@ -1,29 +1,3 @@
-const API = "http://localhost:3000"
-
-document.getElementById("formCadastro")
-    .addEventListener("submit", function (event) {
-        event.preventDefault();
-        const nome = document.getElementById("nome").value;
-        const email = document.getElementById("email").value;
-        const motivo = document.getElementById("motivo").value;
-
-        fetch(`${API}/cadastro`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },  
-            body: JSON.stringify({ nome, email, motivo })
-        })
-        .then(response => response.json())  
-        .then(data => {
-            document.getElementById("mensagem").textContent = data.message;
-        });
-    });
-
-
-    
-
-
 
     function calcular(){
 

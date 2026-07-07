@@ -354,3 +354,13 @@ color:#2D6A2D
     font-size:24px;
     font-weight:bold;
 }
+
+.butn{
+    color:black;      
+    text-decoration:none;
+    padding:15px 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
